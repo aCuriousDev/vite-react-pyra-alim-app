@@ -1,7 +1,7 @@
 function Title() {
   return (
     <div>
-      <h1 className="title">Pyra'Alim</h1>
+      <h1 className="title drop-shadow">Pyra'Alim</h1>
     </div>
   );
 }

@@ -1,0 +1,22 @@
+.progress-container {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.progressbar-wrapper {
+  background-color: #dfe6e9;
+  color: white;
+  border-radius: 15px;
+  width: 60%;
+}
+
+.progressbar {
+  background-color: #5bc88e;
+  width: 60%;
+  color: white;
+  padding: .25rem;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+}

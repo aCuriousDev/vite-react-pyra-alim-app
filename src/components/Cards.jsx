@@ -1,13 +1,20 @@
-import './Cards.css'
+import './Cards.css';
 
 export default function Cards() {
+  
   return (
     <div id="board" className="board unselectable">
-      <div>
-        <img className="img-alim" src="" draggable="false"/>
-        <h2 className="card-title drop-shadow">Lorem Ipsum</h2>
-        <a className="details-trigger" href="#">détails</a>
+      <div className="card" id="card">
+          <img
+            className="img-alim"
+            src="src/assets/Picto1.png"
+            draggable="false"
+          />
+          <h2 className="card-title drop-shadow">Pain blanc</h2>
+          <a className="details-trigger" href="#">
+            détails
+          </a>
       </div>
     </div>
-  )
+  );
 }
