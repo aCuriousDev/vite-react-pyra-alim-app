@@ -1,8 +1,9 @@
 #board {
-  width: 100vw;
-  height: 80vh;
-  background-color: #202125;
+  width: 100vmax;
+  /* height: 65vh; */
   perspective: 1000px;
+  display: grid;
+  place-content: center;
 }
 
 .card {
@@ -10,20 +11,16 @@
   height: 50vh;
   max-height: 1000px;
   aspect-ratio: 16/25;
-  position: absolute;
-  top: 46%;
-  left: 50%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center; */
+  text-align: center;
   gap: 2rem;
   z-index: 1;
   border-radius: 32px;
   border: solid 1px rgba(255, 255, 255, 0.5);
-  transform: translateX(-50%) translateY(-50%) scale(0.95);
 
   /* temp styling */
   background: linear-gradient(25deg, #7c5434, #da9c4a);
