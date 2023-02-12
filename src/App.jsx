@@ -5,6 +5,7 @@ import Cards from './components/Cards'
 import Progression from './components/Progression'
 import Navigation from './components/Navigation'
 import Results from './components/Results'
+
 function App() {
 
   return (
