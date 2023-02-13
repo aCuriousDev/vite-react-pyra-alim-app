@@ -7,19 +7,19 @@ export default function Results() {
     <div className="results-display">
       <div>
         <h3 className="daily-text-color">Tous les jours</h3>
-        <span>20%</span>
+        <span> 20%</span>
       </div>
       <div>
         <h3 className="weekly-text-color">Quelques fois par semaine</h3>
-        <span>80%</span>
+        <span> 80%</span>
       </div>
       <div>
         <h3 className="monthly-text-color">Quelques fois par mois</h3>
-        <span>65%</span>
+        <span> 65%</span>
       </div>
       <div>
         <h3 className="rarely-text-color">Rarement / Jamais</h3>
-        <span>45%</span>
+        <span> 45%</span>
       </div>
     </div>
     <div className="explications-container">
